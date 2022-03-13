@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+  text-align: center;
+  color: indigo;
+  margin-top: 5rem;
+}
+.search-area {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#search-input {
+  padding: 0.2rem;
+  border-radius: 5px;
+}
+#search {
+  padding: 0.2rem;
+  margin-left: 5px;
+  background-image: linear-gradient(rgb(30, 168, 223), yellow);
+  border-radius: 5px;
+}
+.container {
+  text-align: center;
+  margin-top: 1rem;
+}
+#users {
+  margin-top: 20px;
+  margin-left: 400px;
+}
+
+/* contries  */
+#countries-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.country {
+  border: 5px solid indigo;
+  border-radius: 10px;
+  margin: 10px;
+}
